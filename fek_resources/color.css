@@ -1,0 +1,463 @@
+/* 
+Definice barev Univerzita
+	#primary-blue: #005cab 
+	#secondary-blue: #173868
+    #primary-head: #8099b4
+    
+ Definice barev FAV
+	#primary-fav: #e0b100 
+
+Definice barev FDU
+	#primary-fdu: #e5344c
+
+Definice barev DFEK, FEK
+    #primary-dfek: #eb6e08
+    
+Definice barev FEL
+    #primary-fel: #074391
+    
+Definice barev FF
+    #primary-ff: #00b6d7
+    
+Definice barev FPE
+    #primary-fpe: #8fbe22
+    
+Definice barev FPR
+	#primary-fpr: #600128
+*/
+
+a,
+.block .navigation-primary .item a,
+.absolute div.date-bg,
+ul.bullets li::before,
+.block .btn-default-small,
+.block .btn-primary-small-invert,
+.block .navigation-primary .item ul.navigation-primary-submenu li a:hover,
+.block .element.info-banner a.btn-primary-big {
+	color: #005cab;
+}
+
+body .social .absolute .date-bg {
+    color: #8099b4 !important;
+}
+
+.block .navigation-primary .item ul.navigation-primary-submenu li,
+.block .navigation-primary .item:hover a,
+section#Submenu.menu.block,
+.photo-info-banner .content,
+.studium .info-banner .item:hover a.content .atom.event-header,
+.main-banner h2.atom,
+.main-banner h1.atom,
+.block .btn-primary-small,
+.footer.block {
+    background: #eb6e08;
+}
+
+.block .btn-default-small {
+    border: 2px solid #005cab;
+}
+
+.block .head-bold-large,
+.block .head-bold-small,
+.block .head-bold-active {
+    color: #173868;
+}
+
+.block .head-light-large,
+.block .head-light-huge {
+	color: #8099b4;
+}
+
+/*  Definice barev FAV #e0b100 */
+
+body.fav ul.bullets li::before,
+body.fav .block .btn-default-small,
+body.fav .block .btn-primary-small-invert,
+body.fav .absolute div.date-bg,
+body.fav .block .element.info-banner a.btn-primary-big {
+	color: #e0b100;
+}
+
+body.fav section#Submenu.menu.block,
+body.fav .photo-info-banner .content,
+body.fav .studium .info-banner .item:hover a.content .atom.event-header,
+body.fav .main-banner h2.atom,
+body.fav .main-banner h1.atom,
+body.fav .block .btn-primary-small,
+body.fav .footer.block {
+    background: #e0b100;
+}
+
+body.fav .block .btn-default-small {
+    border: 2px solid #e0b100;
+}
+
+/*  Definice barev FDU #e5344c */
+
+body.fdu ul.bullets li::before,
+body.fdu .block .btn-default-small,
+body.fdu .block .btn-primary-small-invert,
+body.fdu .absolute div.date-bg,
+body.fdu .block .element.info-banner a.btn-primary-big {
+	color: #e5344c;
+}
+
+body.fdu section#Submenu.menu.block,
+body.fdu .photo-info-banner .content,
+body.fdu .studium .info-banner .item:hover a.content .atom.event-header,
+body.fdu .main-banner h2.atom,
+body.fdu .main-banner h1.atom,
+body.fdu .block .btn-primary-small,
+body.fdu .footer.block {
+    background: #e5344c;
+}
+
+body.fdu .block .btn-default-small {
+    border: 2px solid #e5344c;
+}
+
+/*  Definice barev DFEK #eb6e08 */
+
+body.dfek ul.bullets li::before,
+body.fek ul.bullets li::before,
+body.dfek .block .btn-default-small,
+body.fek .block .btn-default-small,
+body.dfek .block .btn-primary-small-invert,
+body.fek .block .btn-primary-small-invert,
+body.dfek .absolute div.date-bg,
+body.fek .absolute div.date-bg,
+body.dfek .block .element.info-banner a.btn-primary-big,
+body.fek .block .element.info-banner a.btn-primary-big {
+	color: #173868;
+}
+.btn-primary-small-invert{}
+body.dfek section#Submenu.menu.block,
+body.fek section#Submenu.menu.block,
+body.dfek .photo-info-banner .content,
+body.fek .photo-info-banner .content,
+body.dfek .studium .info-banner .item:hover a.content .atom.event-header,
+body.fek .studium .info-banner .item:hover a.content .atom.event-header,
+body.dfek .main-banner h2.atom,
+body.fek .main-banner h2.atom,
+body.dfek .main-banner h1.atom,
+body.fek .main-banner h1.atom,
+body.dfek .block .btn-primary-small,
+body.fek .block .btn-primary-small,
+body.dfek .footer.block,
+body.fek .footer.block {
+    background: #eb6e08;
+}
+
+body.dfek .block .btn-default-small,
+body.fek .block .btn-default-small {
+    border: 2px solid #eb6e08;
+}
+
+/*  Definice barev FEL #074391 */
+
+body.fel ul.bullets li::before,
+body.fel .block .btn-default-small,
+body.fel .block .btn-primary-small-invert,
+body.fel .absolute div.date-bg,
+body.fel .block .element.info-banner a.btn-primary-big {
+	color: #074391;
+}
+
+body.fel section#Submenu.menu.block,
+body.fel .photo-info-banner .content,
+body.fel .studium .info-banner .item:hover a.content .atom.event-header,
+body.fel .main-banner h2.atom,
+body.fel .main-banner h1.atom,
+body.fel .block .btn-primary-small,
+body.fel .footer.block {
+    background: #074391;
+}
+
+body.fel .block .btn-default-small {
+    border: 2px solid #074391;
+}
+
+/*  Definice barev FF #00b6d7 */
+
+body.ff ul.bullets li::before,
+body.ff .block .btn-default-small,
+body.ff .block .btn-primary-small-invert,
+body.ff .absolute div.date-bg,
+body.ff .block .element.info-banner a.btn-primary-big {
+	color: #00b6d7;
+}
+
+body.ff section#Submenu.menu.block,
+body.ff .photo-info-banner .content,
+body.ff .studium .info-banner .item:hover a.content .atom.event-header,
+body.ff .main-banner h2.atom,
+body.ff .main-banner h1.atom,
+body.ff .block .btn-primary-small,
+body.ff .footer.block {
+    background: #00b6d7;
+}
+
+body.ff .block .btn-default-small {
+    border: 2px solid #00b6d7;
+}
+
+/*  Definice barev FPE #8fbe22 */
+
+body.fpe ul.bullets li::before,
+body.fpe .block .btn-default-small,
+body.fpe .block .btn-primary-small-invert,
+body.fpe .absolute div.date-bg,
+body.fpe .block .element.info-banner a.btn-primary-big {
+	color: #8fbe22;
+}
+
+body.fpe section#Submenu.menu.block,
+body.fpe .photo-info-banner .content,
+body.fpe .studium .info-banner .item:hover a.content .atom.event-header,
+body.fpe .main-banner h2.atom,
+body.fpe .main-banner h1.atom,
+body.fpe .block .btn-primary-small,
+body.fpe .footer.block {
+    background: #8fbe22;
+}
+
+body.fpe .block .btn-default-small {
+    border: 2px solid #8fbe22;
+}
+
+/*  Definice barev FPR #600128 */
+
+body.fpr ul.bullets li::before,
+body.fpr .block .btn-default-small,
+body.fpr .block .btn-primary-small-invert,
+body.fpr .absolute div.date-bg,
+body.fpr .block .element.info-banner a.btn-primary-big {
+	color: #600128;
+}
+
+body.fpr section#Submenu.menu.block,
+body.fpr .photo-info-banner .content,
+body.fpr .studium .info-banner .item:hover a.content .atom.event-header,
+body.fpr .main-banner h2.atom,
+body.fpr .main-banner h1.atom,
+body.fpr .block .btn-primary-small,
+body.fpr .footer.block {
+    background: #600128;
+}
+
+body.fpr .block .btn-default-small {
+    border: 2px solid #600128;
+}
+
+/*  Definice barev FZS #006b65 */
+
+body.fzs ul.bullets li::before,
+body.fzs .block .btn-default-small,
+body.fzs .block .btn-primary-small-invert,
+body.fzs .absolute div.date-bg,
+body.fzs .block .element.info-banner a.btn-primary-big {
+	color: #006b65;
+}
+
+body.fzs section#Submenu.menu.block,
+body.fzs .photo-info-banner .content,
+body.fzs .studium .info-banner .item:hover a.content .atom.event-header,
+body.fzs .main-banner h2.atom,
+body.fzs .main-banner h1.atom,
+body.fzs .block .btn-primary-small,
+body.fzs .footer.block {
+    background: #006b65;
+}
+
+body.fzs .block .btn-default-small {
+    border: 2px solid #006b65;
+}
+
+/*  Definice barev FPR #600128 */
+
+body.fpr ul.bullets li::before,
+body.fpr .block .btn-default-small,
+body.fpr .block .btn-primary-small-invert,
+body.fpr .absolute div.date-bg,
+body.fpr .block .element.info-banner a.btn-primary-big {
+	color: #600128;
+}
+
+body.fpr section#Submenu.menu.block,
+body.fpr .photo-info-banner .content,
+body.fpr .studium .info-banner .item:hover a.content .atom.event-header,
+body.fpr .main-banner h2.atom,
+body.fpr .main-banner h1.atom,
+body.fpr .block .btn-primary-small,
+body.fpr .footer.block {
+    background: #600128;
+}
+
+body.fpr .block .btn-default-small {
+    border: 2px solid #600128;
+}
+
+/*  Definice barev UJP #0057a2 */
+
+body.ujp ul.bullets li::before,
+body.ujp .block .btn-default-small,
+body.ujp .block .btn-primary-small-invert,
+body.ujp .absolute div.date-bg,
+body.ujp .block .element.info-banner a.btn-primary-big {
+	color: #0057a2;
+}
+
+body.ujp section#Submenu.menu.block,
+body.ujp .photo-info-banner .content,
+body.ujp .studium .info-banner .item:hover a.content .atom.event-header,
+body.ujp .main-banner h2.atom,
+body.ujp .main-banner h1.atom,
+body.ujp .block .btn-primary-small,
+body.ujp .footer.block {
+    background: #0057a2;
+}
+
+body.ujp .block .btn-default-small {
+    border: 2px solid #0057a2;
+}
+
+/*  Definice barev NTC #940084 */
+
+body.ntc ul.bullets li::before,
+body.ntc .block .btn-default-small,
+body.ntc .block .btn-primary-small-invert,
+body.ntc .absolute div.date-bg,
+body.ntc .block .element.info-banner a.btn-primary-big {
+	color: #940084;
+}
+
+body.ntc section#Submenu.menu.block,
+body.ntc .photo-info-banner .content,
+body.ntc .studium .info-banner .item:hover a.content .atom.event-header,
+body.ntc .main-banner h2.atom,
+body.ntc .main-banner h1.atom,
+body.ntc .block .btn-primary-small,
+body.ntc .footer.block {
+    background: #940084;
+}
+
+body.ntc .block .btn-default-small {
+    border: 2px solid #940084;
+}
+
+/*  Definice barev FST #3889ba */
+
+body.fst ul.bullets li::before,
+body.fst .block .btn-default-small,
+body.fst .block .btn-primary-small-invert,
+body.fst .absolute div.date-bg,
+body.fst .block .element.info-banner a.btn-primary-big {
+	color: #3889ba;
+}
+
+body.fst section#Submenu.menu.block,
+body.fst .photo-info-banner .content,
+body.fst .studium .info-banner .item:hover a.content .atom.event-header,
+body.fst .main-banner h2.atom,
+body.fst .main-banner h1.atom,
+body.fst .block .btn-primary-small,
+body.fst .footer.block {
+    background: #3889ba;
+}
+
+body.fst .block .btn-default-small {
+    border: 2px solid #3889ba;
+}
+
+/* Tagy barvy */
+
+.block .tags a.primary-zcu, .block .faculty-tag.primary-zcu {background: #005cab;}
+.block .tags a.primary-ff, .block .faculty-tag.primary-ff {background: #00b6d7;}
+.block .tags a.primary-fav, .block .faculty-tag.primary-fav {background: #e0b100;}
+.block .tags a.primary-fel, .block .faculty-tag.primary-fel {background: #074391;}
+.block .tags a.primary-fdu, .block .faculty-tag.primary-fdu {background: #e5344c;}
+.block .tags a.primary-dfek, .block .faculty-tag.primary-dfek {background: #eb6e08;}
+.block .tags a.primary-fek, .block .faculty-tag.primary-fek {background: #eb6e08;}
+.block .tags a.primary-fpe, .block .faculty-tag.primary-fpe {background: #8fbe22;}
+.block .tags a.primary-fpr, .block .faculty-tag.primary-fpr {background: #600128;}
+.block .tags a.primary-fzs, .block .faculty-tag.primary-fzs {background: #006b65;}
+.block .tags a.primary-ujp, .block .faculty-tag.primary-ujp {background: #0057a2;}
+.block .tags a.primary-ntc, .block .faculty-tag.primary-ntc {background: #940084;}
+.block .tags a.primary-fst, .block .faculty-tag.primary-fst {background: #3889ba;}
+.block .tags a.primary-book {background: #132d52;}
+.block .tags a.primary-eu {background: #00309a;}
+.block .tags a.primary-org {background: #989e14;}
+.block .tags a.primary-ntis {background: #00a94f;}
+.block .tags a.primary-student {background: #197f19;}
+.block .tags a.primary-uspoint {background: #b61938;}
+.block .tags a.primary-public {background: #000;}
+.tags a.primary-blue-1 {background: #1a237e;}
+.tags a.primary-blue-2 {background: #313fa0;}
+.tags a.primary-blue-3 {background: #1665c1;}
+.tags a.primary-blue-4 {background: #0097ac;}
+.tags a.primary-green-1 {background: #1a5f20;}
+.tags a.primary-green-2 {background: #71a42c;}
+.tags a.primary-green-3 {background: #4cc553;}
+.tags a.primary-red-1 {background: #d10014;}
+.tags a.primary-red-2 {background: #f34334;}
+.tags a.primary-red-3 {background: #fb6e67;}
+.tags a.primary-pink-1 {background: #c11859;}
+.tags a.primary-pink-2 {background: #f10257;}
+.tags a.primary-pink-3 {background: #ed3f7a;}
+.tags a.primary-yellow-1 {background: #ff9f02;}
+.tags a.primary-yellow-2 {background: #ffb104;}
+.tags a.primary-yellow-3 {background: #fac02e;}
+.tags a.primary-brown-1 {background: #3f2723;}
+.tags a.primary-brown-2 {background: #5d4136;}
+.tags a.primary-brown-3 {background: #8e6d64;}
+.tags a.primary-grey-1 {background: #556d79;}
+.tags a.primary-grey-2 {background: #79919d;}
+.tags a.primary-grey-3 {background: #94a5af;}
+
+body.fek.color-menu .navigation-primary li a {
+    color: #eb6e08;
+}
+
+body.fek.color-menu .navigation-primary .navigation-primary-submenu li a, body.fel.color-menu .block .navigation-primary li.focused a {
+    color: 
+    #fff;
+}
+
+body.dfek.color-menu .navigation-primary .navigation-primary-submenu li:hover a,
+body.fek.color-menu .navigation-primary .navigation-primary-submenu li:hover a {
+    background: #fff;
+	color: #eb6e08;
+}
+
+body.fek.color-menu .navigation-primary .navigation-primary-submenu li a,
+body.fek.color-menu .block .navigation-primary li.focused a {color: #fff;}
+
+body.fek.color-menu .block .navigation-primary > li.focused > a { background: #005cab; }
+
+body.fek.color-menu .nav li > a:focus, 
+body.fek.color-menu .nav li.menuitem:focus > a, 
+body.fek.color-menu .nav li:hover > a {
+	background: #eb6e08; color: #fff;outline: 0;
+}
+
+body.fek.color-menu .nav li.menuitem a:hover {
+	background:#eb6e08; color: #fff;outline: 0;
+}
+
+body.fek.color-menu .nav ul a:hover, 
+body.fek.color-menu .nav ul a:focus {
+	background: #fff; color:#eb6e08!important; outline: 0;
+}
+
+body.fek.color-menu .nav li:hover ul,
+body.fek.color-menu .nav li:focus ul,
+body.fek.color-menu ul.show-menu {
+	background:#eb6e08;
+}
+
+body.dfek .block .btn-default-small,
+body.fek .block .btn-default-small {
+    border: 2px solid #eb6e08;
+
+
+

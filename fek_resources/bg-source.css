@@ -1,0 +1,10 @@
+
+/* infobanner - inline backgrounds */
+#bg-i-12 {background-image: url("../media/info-banner.jpg");}
+
+
+/* gallery - inline backgrounds */
+#bg-g-1 {background-image: url("../media/gallery/bear.jpg");}
+#bg-g-2 {background-image: url("../media/gallery/desert.jpg");}
+#bg-g-3 {background-image: url("../media/gallery/mountain.jpg");}
+ 

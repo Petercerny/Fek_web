@@ -1,0 +1,300 @@
+p {
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+h1, h2, h3, h4 {
+    font-weight: 700;
+    line-height: 1.3em;
+}
+
+h1  {
+    font-size: 3em;
+    margin: 35px 0 5px;
+}
+
+h3 {
+    font-size: 20px;
+    margin: 30px 0 5px;
+}
+
+ul {
+    margin: 15px 0 30px;
+	padding: 0 0 0 15px;
+}
+
+h1,
+h2,
+h3,
+.navigation-primary,
+.navigation-secondary,
+.tags,
+.btn-primary-small,
+.btn-primary-small-invert,
+.info-box div.atom a {
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.main-banner h2.atom,
+.main-banner h1.atom {
+    display: inline-block;
+    width: auto;
+    padding: 25px 30px;
+    color: #fff;
+}
+
+main .article-item .head-bold-large,
+main .article-item .head-bold-small {
+    color: #8099b4;
+    margin: 45px 0 10px;
+	display: inline-block;
+}
+
+.article-item h1.first,
+.article-item h2.first,
+.article-item h3.first,
+.article-item h4.first,
+.article-item h5.first {
+    margin-top: 5px !important;
+}
+
+/* Nadpisy */
+
+.block .head-light-large,
+.block .head-light-huge {
+    font-size: 40px;
+    font-weight: 100;
+    line-height: 52px;
+    margin: 0;
+    padding: 0 0 5px 0;
+    text-transform: uppercase;
+    font-family: "Roboto Condensed", sans-serif;
+}
+
+.block .head-base-tiny {
+    font-size: 12px;
+    line-height: 15px;
+    text-transform: uppercase;
+    font-family: "Roboto Condensed", sans-serif;
+}
+
+.block .head-base-default {
+    font-size: 14px;
+    line-height: 21px;
+    font-family: "Roboto Condensed", sans-serif;
+}
+
+.block .head-base-large {
+    font-size: 26px;
+    line-height: 28px;
+    text-transform: uppercase;
+    font-family: "Roboto Condensed", sans-serif;
+}
+
+/* Head Bold */
+
+.block .head-bold-mega {
+    font-size: 48px;
+    line-height: 52px;
+    text-transform: uppercase;
+}
+
+.block .head-bold-huge {
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 44px;
+    text-transform: uppercase;
+    font-family: "Roboto Condensed", sans-serif;
+}
+
+.block .head-bold-large {
+    font-size: 26px;
+    line-height: 28px;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-family: "Roboto Condensed", sans-serif;
+}
+
+.block .head-bold-small {
+    font-size: 20px;
+    line-height: 24px;
+    text-transform: uppercase;
+    font-family: "Roboto Condensed", sans-serif;
+    font-weight: 600;
+}
+
+.block .head-bold-btn {
+    font-size: 18px;
+    line-height: 26px;
+    text-transform: none;
+    font-family: "Roboto Condensed", sans-serif;
+}
+
+.block .head-bold-sub {
+    font-size: 16px;
+    line-height: 32px;
+    text-transform: uppercase;
+    font-family: "Roboto Condensed", sans-serif;
+    font-weight: 600;
+}
+
+.block .head-bold-active {
+    font-size: 15px;
+    line-height: 19px;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-family: "Roboto Condensed", sans-serif;
+}
+
+/* Typo Bold */
+
+.block .typo-bold-huge {
+    font-size: 18px;
+    line-height: 26px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700;
+}
+
+.block .typo-bold-large {
+    font-size: 15px;
+    line-height: 26px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700;
+}
+
+.block .typo-bold-default {
+    font-size: 14px;
+    line-height: 21px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700;
+}
+
+.block .typo-bold-small {
+    font-size: 13px;
+    line-height: 19px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 600;
+}
+
+/* Typo Base */
+
+.block .typo-base-huge {
+    font-size: 18px;
+    line-height: 26px;
+    font-family: "Open Sans", sans-serif;
+}
+
+.block .typo-base-default {
+    font-size: 16px;
+    line-height: 24px;
+    font-family: "Open Sans", sans-serif;
+}
+
+.block .typo-base-large {
+    font-size: 15px;
+    line-height: 21px;
+    font-family: "Open Sans", sans-serif;
+}
+
+.block .typo-base-small {
+    font-size: 14px;
+    line-height: 20px;
+    font-family: "Open Sans", sans-serif;
+}
+
+.block .typo-base-tiny {
+    font-size: 12px;
+    line-height: 16px;
+    font-family: "Open Sans", sans-serif;
+}
+
+/* Buttony */
+
+.block .btn-primary-small {
+    padding: 6px 13px;
+    min-width: 190px;
+    font-size: 18px;
+    line-height: 26px;
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 700;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.block .btn-default-small {
+    padding: 6px 13px;
+    min-width: 190px;
+    font-size: 18px;
+    background: none;
+    line-height: 26px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 700;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.block .btn-primary-small-invert {
+    padding: 6px 13px;
+    min-width: 190px;
+    font-size: 18px;
+    background: #fff;
+    line-height: 26px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 700;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.block .btn-primary-small-invert:hover {
+    color: #173868;
+}
+
+.block .btn-primary-small:hover {
+    background: #173868;
+}
+
+.block .element.info-banner a.btn-primary-big {
+    background: #fff none repeat scroll 0 0;
+    cursor: pointer;
+    display: inline-block;
+    margin-top: 20px;
+    min-width: 350px;
+    padding: 25px;
+    border: solid 2px #fff;
+	text-decoration: none;
+}
+
+body .block .element.info-banner a.btn-primary-big:hover {
+    background: none;
+    border: solid 2px #fff;
+    color: #fff !important;
+}
+
+.block .faculty-tag.head-bold-active {
+    color: #fff;
+    float: left;
+    margin-bottom: 7px;
+    margin-right: 7px;
+    padding: 3px 7px;
+	background: #8099b4;
+	font-weight: 500;
+}
+
+.element.timeline .head-bold-huge {
+    color: #173868;
+    font-size: 70px;
+    line-height: 1.3em;
+    margin: 0;
+    padding-right: 35px;
+    text-align: right;
+}
+
+.element.timeline p.introtext {
+    line-height: 1.3em;
+    margin: 30px 0;
+	padding-left: 35px;
+}

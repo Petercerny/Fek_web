@@ -1,0 +1,446 @@
+ul.horizontal-tabs,
+ul.vertical-tabs {
+    margin: 0;
+    padding: 0;
+}
+
+.item.vertical-tabs {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.horizontal-tabs > li {
+    list-style: none outside none;
+    float: left;
+}
+
+.vertical-tabs > li {
+    list-style: none outside none;
+}
+
+ul.horizontal-tabs a,
+ul.vertical-tabs a {
+    padding: 10px 20px;
+    color: #173868;
+}
+
+ul.vertical-tabs a {
+    width: 100%;
+}
+
+.horizontal-tabs li.ui-tabs-active a,
+.vertical-tabs li.ui-tabs-active a,
+.horizontal-tabs a:hover,
+.vertical-tabs a:hover {
+    background: #173868;
+    color: #fff;
+}
+
+.horizontal-tabs a:hover,
+.vertical-tabs a:hover {
+    background: #fff;
+    color: #4f4f4f;
+}
+
+.article-item #tabs.item div.content.info-box {
+    height: auto;
+}
+
+#tabs section.gallery.block div.content-width {
+    width: 100%;
+}
+
+#tabs.vertical-tabs section.gallery.block div.content-width .module,
+#tabs.vertical-tabs section.download.block div.content-width .module,
+#tabs.vertical-tabs section.projects.block div.content-width .module,
+#tabs.horizontal-tabs section.gallery.block div.content-width .module,
+#tabs.horizontal-tabs section.download.block div.content-width .module,
+#tabs.horizontal-tabs section.projects.block div.content-width .module {
+    padding: 0;
+}
+
+#tabs.vertical-tabs section.download.block div.content-width .element.download .item,
+#tabs.horizontal-tabs section.download.block div.content-width .element.download .item {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+#tabs.vertical-tabs .element.numbers div.item div.content.info-box,
+#tabs.horizontal-tabs .element.numbers div.item div.content.info-box {
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 20px;
+}
+
+#tabs.vertical-tabs section.article .element.article-item .content.info-box,
+#tabs.vertical-tabs .element.download .content.info-box,
+#tabs.vertical-tabs .element.projects .content.info-box,
+#tabs.vertical-tabs .element.numbers div.item,
+#tabs.horizontal-tabs section.article .element.article-item .content.info-box,
+#tabs.horizontal-tabs .element.download .content.info-box,
+#tabs.horizontal-tabs .element.projects .content.info-box,
+#tabs.horizontal-tabs .element.numbers div.item {
+    padding: 0;
+}
+
+#tabs.vertical-tabs .element.projects,
+#tabs.horizontal-tabs .element.projects {
+    margin-bottom: 30px;
+}
+
+#tabs.vertical-tabs .element.projects .document-item div.document-button > a,
+#tabs.horizontal-tabs .element.projects .document-item div.document-button > a {
+    float: left;
+    margin-left: 0;
+}
+
+#tabs.vertical-tabs .element.projects div.item,
+#tabs.horizontal-tabs .element.projects div.item {
+    margin-bottom: 10px;
+}
+
+#tabs.vertical-tabs .element.download.grid .group.document-item,
+#tabs.horizontal-tabs .element.download.grid .group.document-item {
+    -moz-box-flex: 0;
+    flex: 0 1 33%;
+    max-width: 33%;
+    width: 33%;
+}
+
+#tabs.vertical-tabs section.download.block div.element.article-header,
+#tabs.horizontal-tabs section.download.block div.element.article-header {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+#tabs.vertical-tabs .element.numbers .value-number,
+#tabs.horizontal-tabs .element.numbers .value-number {
+    font-size: 50px;
+}
+
+#tabs.vertical-tabs .size-70 .element.gallery div.item,
+#tabs.horizontal-tabs .size-70 .element.gallery div.item {
+    max-height: 120px;
+}
+
+div.uwb-tabs.vertical-tabs .article-header h2.head-light-large,
+div.uwb-tabs.horizontal-tabs .article-header h2.head-light-large {
+    font-family: "Roboto Condensed", sans-serif;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 28px;
+    /* Zakomentovano, protoze chceme umoznit zmenu polohy nadpisu editorovi v GUI */
+    /*text-align: center;*/
+}
+
+/* Uprava pro nadpisy publikaci v seznamu publikaci */
+div.uwb-tabs.vertical-tabs .group.document-item  h3.head-base-large,
+div.uwb-tabs.horizontal-tabs .group.document-item  h3.head-base-large {
+    font-family: "Roboto Condensed",sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: none;
+}
+
+div.uwb-tabs.vertical-tabs .gallery.block .element.gallery,
+div.uwb-tabs.horizontal-tabs .gallery.block .element.gallery {
+    margin-top: 25px;
+}
+
+div.uwb-tabs.vertical-tabs .content.info-box,
+div.uwb-tabs.horizontal-tabs .content.info-box {
+    padding: 10px 30px 30px;
+}
+
+div.uwb-tabs.vertical-tabs .element.people-box.large div.item,
+div.uwb-tabs.horizontal-tabs .element.people-box.large div.item {
+    -moz-box-flex: 0;
+    flex: 0 1 50%;
+    max-width: 50%;
+    width: 50%;
+}
+
+div.uwb-tabs.vertical-tabs .element.people-box.large div.item .content.info-box,
+div.uwb-tabs.vertical-tabs .element.people-box.mini div.item .content.info-box,
+div.uwb-tabs.horizontal-tabs .element.people-box.large div.item .content.info-box,
+div.uwb-tabs.horizontal-tabs .element.people-box.mini div.item .content.info-box {
+    padding: 10px 20px;
+}
+
+div.uwb-tabs.vertical-tabs .element.people-box.mini div.item,
+div.uwb-tabs.horizontal-tabs .element.people-box.mini div.item {
+    -moz-box-flex: 0;
+    flex: 0 1 25%;
+    max-width: 25%;
+    width: 25%;
+}
+
+div.uwb-tabs.vertical-tabs .buttons.block .content-width,
+div.uwb-tabs.horizontal-tabs .buttons.block .content-width {
+    padding-top: 25px;
+}
+
+div.uwb-tabs.vertical-tabs .buttons,
+div.uwb-tabs.horizontal-tabs .buttons {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+}
+
+div.uwb-tabs.vertical-tabs ul.element.buttons li.item a,
+div.uwb-tabs.horizontal-tabs ul.element.buttons li.item a {
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+@media screen and (max-width: 1200px) {
+	
+	#tabs.vertical-tabs .block .content-width,
+    #tabs.horizontal-tabs .block .content-width {
+        min-width: auto;
+    }
+
+    #tabs.vertical-tabs .element.download.grid .group.document-item,
+    #tabs.horizontal-tabs .element.download.grid .group.document-item {
+        -moz-box-flex: 0;
+        flex: 0 1 50%;
+        max-width: 50%;
+        width: 50%;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    #tabs.vertical-tabs .size-70 .element.gallery div.item,
+    #tabs.horizontal-tabs .size-70 .element.gallery div.item {
+        max-height: 95px;
+    }
+
+    #tabs.vertical-tabs .element.numbers .value-number,
+    #tabs.horizontal-tabs .element.numbers .value-number {
+        font-size: 42px;
+    }
+
+    div.uwb-tabs.vertical-tabs .element.people-box.mini div.item,
+    div.uwb-tabs.horizontal-tabs .element.people-box.mini div.item {
+        -moz-box-flex: 0;
+        flex: 0 1 33.333%;
+        max-width: 33.333%;
+        width: 33.333%;
+    }
+
+    div.uwb-tabs.vertical-tabs .element.people-box.large div.item,
+    div.uwb-tabs.horizontal-tabs .element.people-box.large div.item {
+        -moz-box-flex: 0;
+        flex: 0 1 100%;
+        max-width: 100%;
+        width: 100%;
+    }
+
+    #tabs.vertical-tabs .document-item h3.head-bold-small,
+    #tabs.horizontal-tabs .document-item h3.head-bold-small {
+        font-size: 15px;
+        font-weight: 700;
+        line-height: 19px;
+        min-height: auto;
+    }
+
+    .studium .info-banner.animation .item:hover .content {
+        padding: 0 0 100px;
+    }
+
+    #tabs .block .content-width {
+        max-width: auto;
+        min-width: auto;
+    }
+}
+	
+@media screen and (max-width: 959px) {
+		
+	.article-item .item.vertical-tabs div.col2 {
+        -moz-box-flex: 0;
+        flex: 0 1 100%;
+        max-width: 100%;
+        padding-right: 0;
+        width: 100%;
+        padding-right: 0;
+    }
+	
+	#tabs.vertical-tabs .size-70 .element.gallery div.item {
+        max-height: 140px;
+    }
+
+    #tabs.vertical-tabs section.article .article-header div.item,
+    #tabs.vertical-tabs section.download .element.article-header div.item {
+        padding-bottom: 10px;
+        padding-top: 10px;
+    }
+
+    #tabs.vertical-tabs section.numbers .element.numbers div.item.size-33 {
+        -moz-box-flex: 0;
+        flex: 0 1 100%;
+        max-width: 100%;
+        width: 100%;
+    }
+
+    #tabs.vertical-tabs .element.numbers .content.info-box {
+        display: table;
+        margin: 0 auto;
+        padding: 10px 20px;
+        width: auto;
+    }
+
+    #tabs.vertical-tabs .element.numbers .value-number {
+        font-size: 35px;
+    }
+
+    #tabs.vertical-tabs .element.numbers .before-name-number {
+        font-size: 13px;
+        margin-top: 5px;
+        text-align: right;
+    }
+
+    #tabs.vertical-tabs .element.numbers .value-number {
+        line-height: 1em;
+        padding-top: 0;
+    }
+
+    #tabs.vertical-tabs .element.numbers .after-name-number {
+        font-size: 13px;
+        margin-top: 5px;
+        text-align: left;
+    }
+
+    .block .vertical-tabs li a {
+        font-size: 12px;
+        font-weight: 500;
+        padding: 5px 10px;
+    }
+
+    #tabs.vertical-tabs .element.numbers .atom {
+        float: left;
+        width: auto;
+    }
+
+    div.uwb-tabs.vertical-tabs .element.people-box.mini div.item {
+        -moz-box-flex: 0;
+        flex: 0 1 50%;
+        max-width: 50%;
+        width: 50%;
+    }
+	
+	div.uwb-tabs.vertical-tabs ul.element.buttons li.item {
+        display: table;
+        margin: 0 auto;
+        width: auto;
+        float: none;
+    }
+}
+
+@media screen and (max-width: 767px) {
+	
+	.block ul.vertical-tabs,
+    .block .article-item .vertical-tabs .content.info-box {
+        -moz-box-flex: 0;
+        flex: 0 1 100%;
+        max-width: 100%;
+        width: 100%;
+    }
+
+    .block ul.vertical-tabs {
+        margin-top: 25px;
+    }
+
+    .block .vertical-tabs li {
+        float: left;
+    }
+
+    .block .vertical-tabs li a {
+        font-size: 12px;
+        font-weight: 500;
+        padding: 5px 10px;
+    }
+	
+	#tabs.vertical-tabs .size-70 .element.gallery div.item {
+        max-height: 180px;
+    }
+
+    .people-box.mini div.photo-people-side {
+        padding: 0 25% 5px;
+    }
+
+    #tabs.vertical-tabs .element.projects div.item {
+        margin-bottom: 20px;
+    }
+
+    #tabs.vertical-tabs .document-item h3.head-bold-small {
+        font-size: 20px;
+        font-weight: 600;
+        line-height: 24px;
+    }
+}
+
+@media screen and (max-width: 670px) {
+	
+	#tabs.vertical-tabs .size-70 .element.gallery div.item {
+        max-height: 150px;
+    }
+}
+
+@media screen and (max-width: 550px) {
+	
+    #tabs.vertical-tabs .element.download.grid .group.document-item,
+    #tabs.horizontal-tabs .element.download.grid .group.document-item {
+        -moz-box-flex: 0;
+        flex: 0 1 100%;
+        max-width: 100%;
+        width: 100%;
+    }
+
+    #tabs.vertical-tabs .element.download.grid .group.document-item,
+    #tabs.horizontal-tabs .element.download.grid .group.document-item {
+        border-bottom: 1px solid #ddd;
+        margin-bottom: 5px;
+        padding-bottom: 10px;
+    }
+
+    #tabs.vertical-tabs .element.download.grid .group.document-item .document-info,
+    #tabs.horizontal-tabs .element.download.grid .group.document-item .document-info {
+        border-bottom: none;
+        padding-bottom: 0;
+    }
+	
+	#tabs.vertical-tabs .size-70 .element.gallery div.item,
+    #tabs.horizontal-tabs .size-70 .element.gallery div.item {
+        max-height: 120px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+	
+	#tabs.vertical-tabs .size-70 .element.gallery div.item {
+        max-height: none;
+    }
+
+    #tabs.vertical-tabs .element.numbers .atom,
+    #tabs.vertical-tabs .element.numbers .before-name-number,
+    #tabs.vertical-tabs .element.numbers .after-name-number {
+        text-align: center;
+        width: 100%;
+    }
+
+    div.uwb-tabs.vertical-tabs .element.people-box.mini div.item {
+        -moz-box-flex: 0;
+        flex: 0 1 100%;
+        max-width: 100%;
+        width: 100%;
+    }
+
+    div.uwb-tabs.vertical-tabs .element.people-box.large div.item .content.info-box,
+    div.uwb-tabs.vertical-tabs .element.people-box.mini div.item .content.info-box {
+        padding: 10px 0;
+    }
+
+    div.uwb-tabs.vertical-tabs .content.info-box {
+        padding: 10px 15px 30px;
+    }
+	
+}

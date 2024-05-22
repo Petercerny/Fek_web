@@ -1,0 +1,492 @@
+
+div.block {
+    display: inline-block;
+    margin: 0;
+    /*overflow: hidden;*/
+    position: relative;
+    width: 100%;
+    margin: 0;
+    min-height: 40px;
+}
+
+body {
+    color: #555;
+    font-size: 15px;
+    background: #f2f5fa;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    min-height: 100%;
+}
+
+div.content-width {
+    margin: 0 auto;
+    max-width: 1100px;
+    padding: 35px 0;
+    width: 100%;
+}
+
+div.element.group,
+.full-width div.element {
+    padding: 0;
+}
+
+div.content-width.full-width {
+    max-width: none;
+}
+
+div.content-width.full-width .module {
+    margin: 10px 0 0 0;
+    padding: 0 10px;
+}
+
+div.content-width.full-width .size-100 {
+    padding: 0;
+}
+
+[class*="item"] img {
+    height: auto;
+    width: 100%;
+}
+
+.block h1 {
+    font-size: 50px;
+    font-weight: 700;
+    width: 100%;
+}
+
+.block h2 {
+    font-size: 40px;
+    font-weight: 700;
+    width: 100%;
+}
+
+.block h3 {
+    font-weight: 700;
+    width: 100%;
+}
+
+.block .text-edit {
+    margin: 0;
+    /*overflow: hidden;  podivné chování výšky se tímto vyřešilo*/
+    padding: 5px;
+    position: relative;
+}
+
+
+/* Basic layout items and module */
+
+.module {
+    padding: 5px;
+    box-sizing: border-box;
+    flex-basis: 0;
+    flex-grow: 1;
+}
+
+.full-width .module {
+    padding: 0;
+}
+
+.item {
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+.spacer {
+    min-height: 20px;
+}
+
+.type-menu [class*="col-"] {
+    padding: 0;
+    width: auto;
+}
+
+.type-menu.horizontal {
+    flex-direction: row;
+}
+
+.type-menu.vertical {
+    flex-direction: column;
+}
+
+.type-menu.nobutton button,
+.type-menu.nobutton .button {
+    background: none;
+}
+
+[class*="col-"],
+.item {
+    -moz-box-flex: 1;
+    flex-basis: 0;
+    flex-grow: 1;
+    max-width: 100%;
+}
+
+.col-1 {
+    width: 100%;
+	-webkit-box-flex: 0;
+        -ms-flex: 0 1 100%;
+            flex: 0 1 100%;
+    max-width: 100%;
+}
+
+.col-2 {
+    width: 50%;
+	-webkit-box-flex: 0;
+        -ms-flex: 0 1 50%;
+            flex: 0 1 50%;
+    max-width: 50%;
+}
+
+.col-3 {
+    width: 33.33%;
+	-webkit-box-flex: 0;
+        -ms-flex: 0 1 33.33%;
+            flex: 0 1 33.33%;
+    max-width: 33.33%;
+}
+
+.col-4 {
+    width: 25%;
+	-webkit-box-flex: 0;
+        -ms-flex: 0 1 25%;
+            flex: 0 1 25%;
+    max-width: 25%;
+}
+
+.col-5 {
+    width: 20%;
+    -webkit-box-flex: 0;
+        -ms-flex: 0 1 20%;
+            flex: 0 1 20%;
+    max-width: 20%;
+}
+
+.col-6 {
+    width: 16.66%;
+	-webkit-box-flex: 0;
+        -ms-flex: 0 1 16.66%;
+            flex: 0 1 16.66%;
+    max-width: 16.66%;
+}
+
+.col-7 {
+    width: 14.28%;
+	-webkit-box-flex: 0;
+        -ms-flex: 0 1 14.28%;
+            flex: 0 1 14.28%;
+    max-width: 14.28%;
+}
+
+.col-8 {
+    width: 12.5%;
+	-webkit-box-flex: 0;
+        -ms-flex: 0 1 12.5%;
+            flex: 0 1 12.5%;
+    max-width: 12.5%;
+	
+}
+
+.col-9 {
+    width: 11.11%;
+	-webkit-box-flex: 0;
+        -ms-flex: 0 1 11.11%;
+            flex: 0 1 11.11%;
+    max-width: 11.11%;
+}
+
+.col-10 {
+    width: 10%;
+	-webkit-box-flex: 0;
+        -ms-flex: 0 1 10%;
+            flex: 0 1 10%;
+    max-width: 10%;
+}
+
+/*.item:nth-child(even) .content {
+    background: rgba(255, 255, 255, 0.8);
+}*/
+
+.image {
+    margin: 0;
+    font-size: 0;
+}
+
+div.content {
+    background: #fff none repeat scroll 0 0;
+    display: block;
+    margin: 0;
+    overflow: hidden;
+    padding: 20px 15px;
+}
+
+.element .atom {
+    float: left;
+}
+
+.element.align-center .atom {
+    float: none;
+}
+
+.element .group {
+    overflow: hidden;
+    padding: 0 5px;
+    width: 100%;
+    display: flex;
+	-moz-box-flex: 1;
+    flex-basis: 0;
+    flex-grow: 1;
+}
+
+.element.align-center .group {
+    margin: 0 auto;
+    float: none;
+}
+
+.element.align-right .group {
+    float: right;
+}
+
+.block .button,
+.block .atom button,
+.block .atom .date {
+    background: #0491b9 none repeat scroll 0 0;
+    display: inline-block;
+    font-size: 14px;
+    margin: 5px;
+    padding: 6px 15px;
+    color: #fff;
+    border-radius: 3px;
+    cursor: pointer;
+    vertical-align: top;
+    border: 1px dashed rgba(0, 0, 0, 0);
+}
+
+.block .button.style-1,
+.block .atom button.style-1 {
+    background: none;
+    color: #0491b9;
+}
+
+.block .button.style-1,
+.block .atom button.style-1 {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.block .atom .date {
+    background: none;
+    vertical-align: top;
+    color: inherit;
+    margin-left: 0;
+    margin-right: 0;
+    padding: 6px 5px;
+    border-radius: 0;
+}
+
+.block .atom.large .date {
+    font-size: 17px;
+    padding: 12px 10px;
+}
+
+.block .large .button,
+.block .atom.large button,
+.block .atom.large input {
+    font-size: 17px;
+    padding: 12px 30px;
+    border-radius: 3px;
+}
+
+.atom.image {
+    overflow: hidden;
+}
+
+.align-center .content[class*="size-"] {
+    margin: 0 auto;
+}
+
+.atom[class*="size-"]>* {
+    width: 100%;
+}
+
+.atom[class*="size-"] {
+    padding: 5px;
+}
+
+.atom.image[class*="size-"] {
+    padding: 0;
+}
+
+div.content-width {
+    margin: 0 auto;
+    max-width: 1100px;
+    padding: 35px 0;
+    width: 100%;
+    display: flex;
+    display: -webkit-flex;
+    flex-flow: row wrap;
+    -webkit-flex-flow: row wrap;
+    position: relative;
+}
+
+.element {
+    overflow: visible;
+    position: relative;
+    display: flex;
+    flex-flow: row wrap;
+    padding: 0;
+}
+
+.atom input,
+.atom textarea {
+    border: 0 none;
+    border-radius: 2px;
+    color: #777;
+    font-size: 14px;
+    font-weight: 400;
+    margin: 0;
+    outline: medium none;
+    padding: 6px 15px;
+    font-family: inherit;
+}
+
+.slider.block {
+    font-size: 0;
+}
+
+.slider.block .element {
+    font-size: initial;
+}
+
+.align-center,
+.align-center .atom > * {
+    text-align: center;
+}
+
+.align-left {
+    text-align: left;
+}
+
+.align-right {
+    text-align: right;
+}
+
+.align-justify {
+    text-align: justify;
+}
+
+.float-right,
+.block .float-right {
+    float: right;
+}
+
+.float-left,
+.block .float-left {
+    float: left;
+}
+
+
+/* experiment */
+
+.atom.align-center[class*="size-"] {
+    clear: both;
+    float: none;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.align-center .atom.image[class*="size-"] {
+    clear: both;
+    float: none;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.element.align-right .atom[class*="size-"] {
+    float: right;
+}
+
+
+/* experiment END */
+
+
+/* Skills */
+
+.element .icon-svg {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.element .content .icon-svg {
+    padding: 5px 5px 15px 5px;
+}
+
+.element .content .image.icon-svg.round {
+    background: #fff none repeat scroll 0 0;
+    border-radius: 50rem;
+    padding: 15px;
+    margin-bottom: 10px;
+}
+
+.icon-svg {
+    padding: 0;
+}
+
+.content.no-bg {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+    padding: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.blog .item,
+.item.flex {
+    display: flex;
+}
+
+.category .item {
+    padding-top: 0;
+    padding-bottom: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+/*.block {
+    margin-bottom: -5px !important;
+}*/
+
+.menu .content-width {
+    padding: 10px 0;
+}
+
+.type-menu .item {
+    -moz-box-flex: inherit;
+    flex-basis: auto;
+    flex-grow: inherit;
+    max-width: 100%;
+    padding: 0;
+}
+
+.type-menu.align-center {
+    justify-content: center;
+}
+
+.type-menu.align-right {
+    justify-content: flex-end;
+}
+
+.type-menu.rounded button {
+    border-radius: 10em;
+}
+
+img.ikona{ 
+  width:17px;
+  height:16px;
+}
+img.fotoosobni {
+margin-left:20px;
+margin-right:20px;
+height:160px;
+}
